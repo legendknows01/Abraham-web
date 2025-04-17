@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 600px;
+}
+header{
+    position: relative;
+    background-color: white;
+    height: 640px;
+}
+li{
+    list-style: none;
+   display: inline-block;
+   padding-left: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.mainobject .name .logo{
+width: 30px;
+height: 25px;
+}
+.mainobject{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mainobject .name{
+    color: black;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.mainobject .links{
+    color: black;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: 120px;
+    display: flex;
+}
+.mainobject .links #get{
+    border: 2px;
+    border-radius: 60px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+}
+.mainobject .links #dropdown:hover{
+display: block;
+}
+
+/*text below*/
+.Below{
+width: 100%;
+height: 600px;
+position: inherit;
+display: flex;
+}
+.Below .Text{
+    color: black;
+    font-size: 50px;
+    width: 600px;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-left: 130px;
+}
+.Below #Text-below{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 240px;
+    padding-left: 140px;
+    position: absolute;
+}
+.image {
+    width: 1200px;
+    border-radius: 200px;
+    position: absolute;
+    top: 0px;
+}
+
+/*This is Second Page*/
+.Welcome{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+.name{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.Message{
+    font-size: 20px;
+    padding-top: 0px;
+    position: relative;
+   text-align: center;
+}
+.front {
+    width: 600px;
+    border-radius: 200px;
+    position: absolute;
+    top: 220px;
+    right: 370px;
+}
+
+

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./Packages/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="script.js" defer></script>
+    <title>Abraham Environmental Specialist</title>
+</head>
+<body>
+    <header class="header-section">
+        <div class="navbar">
+            <img class="logo" src="./Packages/images/logo.png" alt="Logo">
+            <nav>
+                <ul class="links">
+                    <li><a href="../Abraham Web/Index.html">HOME</a></li>
+                    <li><a href="./Packages/menu/about-us.html">ABOUT US</a></li>
+                    <li><a href="./Packages/menu/services.html">SERVICES</a></li>
+                    <li><a href="./Packages/menu/portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./Packages/menu/contact-us.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="below-section">
+        <div class="text-content">
+            <p class="text">LEADING THE CHANGE <br> FOR A SUSTAINABLE WORLD</p>
+            <a id="text-below">Empowering sustainable solutions for a greener future!</a> <br>
+            <a href="./Packages/menu/contact-us.html" class="contact-button"><i class="fas fa-phone"></i> Contact Us</a> 
+        </div>
+    </section>
+
+    
+    <section class="section-2-modern">
+        <div class="section-2-container">
+            <div class="left-content">
+                <h2 class="highlight-title">Clear Vision, <br> Practical Solutions.</h2>
+                <p class="description">
+                    Empowering businesses and communities with <span class="highlight">sustainable environmental solutions.</span>
+                </p>
+                <a href="./Packages/menu/services.html" class="explore-link">Explore Our Solutions</a>
+            </div>
+            <div class="right-content">
+                <div class="slideshow-container">
+                    <div class="slide">
+                        <img src="./Packages/images/background.jpg" alt="We are Team">
+                    </div>
+                    <div class="slide">
+                        <img src="./Packages/images/background-copy.jpg" alt="Environmental Solution">
+                    </div>
+                    <div class="slide">
+                        <img src="./Packages/images/background.jpg" alt="Sustainability">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    let slideIndex = 0;
+const slides = document.querySelectorAll(".slide");
+
+function showSlides() {
+    slides.forEach((slide, index) => {
+        slide.style.opacity = "0";
+        slide.style.transform = "translateX(100%)";
+    });
+
+    slides[slideIndex].style.opacity = "1";
+    slides[slideIndex].style.transform = "translateX(0)";
+}
+
+function plusSlides(n) {
+    slideIndex = (slideIndex + n + slides.length) % slides.length;
+    showSlides();
+}
+
+document.addEventListener("DOMContentLoaded", showSlides);
+
+    </script>
+    
+    <section class="section-3">
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./Packages/images/Template.jpg" alt="We are Team">
+                </div>
+                <div class="card-content">
+                    <h3>We are a Team</h3>
+                    <hr>
+                    <p>As part of Team, this is what we believe.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-image">
+                    <img src="./Packages/images/background-copy3.jpg" alt="Live Sustainable">
+                </div>
+                <div class="card-content">
+                    <h3>Live Sustainable</h3>
+                    <hr>
+                    <p>Sustainability in Action, Progress in Motion</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-image">
+                    <img src="./Packages/images/Template-copy2.jpg" alt="Innovative Solutions">
+                </div>
+                <div class="card-content">
+                    <h3>Innovative Solutions</h3>
+                    <hr>
+                    <p>Creating Lasting Solutions for a Better Future</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="section-5">
+        <h2>What we can offer</h2>
+        <div class="offer-container">
+          <div class="offer-image">
+            <!-- Replace with your image -->
+            <img src="./Packages/images/Solar.jpg" alt="Sustainable Energy Image">
+          </div>
+          <div class="offer-text">
+            <h3>Sustainable Energy Solutions</h3>
+            <p>
+              At Abraham Environmental Specialist and Consultancy, Inc., we deliver innovative renewable energy and waste management solutions. 
+              From solar and wind power to waste-to-energy systems, we help businesses and communities transition to cleaner, more sustainable energy sources—reducing environmental impact and building a greener future.
+            </p>
+            <a href="./Packages/menu/services.html" class="btn-primary-2">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-6">
+        <h2>Committed to a Sustainable Future</h2>
+        <div class="content-container">
+            
+            <div class="feature">
+                <div class="feature-text">
+                    <h3>Direction</h3>
+                    <p>To be a global leader in safeguarding the environment by managing all types of waste, reducing harmful emissions, and protecting our planet for future generations.</p>
+                    <a href="./Packages/menu/about-us.html" class="explore-link-2">Learn More</a>
+                </div>
+                <div class="feature-img">
+                    <img src="./Packages/images/background.png" alt="Direction Image">
+                </div>
+            </div>
+            
+            <div class="feature reverse">
+                <div class="feature-img">
+                    <img src="./Packages/images/background.jpg" alt="Approach Image">
+                </div>
+                <div class="feature-text">
+                    <h3>Approach</h3>
+                    <p>We provide innovative waste management solutions, support local communities in proper waste disposal, and promote environmental awareness to ensure a cleaner, safer world.</p>
+                    <a href="./Packages/menu/services.html" class="explore-link-2">Learn More</a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    
+      
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-left">
+              <h2>Developing Solutions for Environmental Needs<sup>®</sup></h2>
+          </div>
+          <div class="footer-column">
+              <h3>PHILIPPINES</h3>
+              <p><a href="mailto:abrahamenvironmentalist@gmail.com">abrahamenvironmentalist@gmail.com</a></p>
+              <p>+63 962-576-2990</p>
+              <p>+63 975-220-2137</p>
+              <p>Bunga, Libertad, Bogo City, Cebu</p>
+          </div>
+          <div class="footer-column">
+              <p><a href="./Packages/menu/about-us.html">ABOUT US</a></p>
+              <a href="./Packages/menu/services.html">SERVICES</a>
+              <p><a href="./Packages/menu/portfolio.html">PORTFOLIO</a></p>
+              <p><a href="./Packages/menu/contact-us.html">CONTACT US</a></p>
+          </div>
+          <div class="footer-column">
+              <h3>FOR MORE NEWS AND UPDATES,</h3>
+              <h3>FOLLOW US</h3>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-behance"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+</body>
+
+</html>
